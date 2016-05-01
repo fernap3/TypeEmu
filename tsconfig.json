@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
+        "module": "system",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        //"outFile": "../../built/local/tsc.js",
+        "outFile": "typeemu.js",
         "sourceMap": true
     },
     "files": [
-        "cpu.ts"
+        "cpu.ts",
+        "gameboy.ts"
     ]
 }
